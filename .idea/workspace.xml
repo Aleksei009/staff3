@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a38dde2-569f-4ed9-bd52-7ff7de6fc21c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/views/profils/index.volt" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/profils/index.volt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/router.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,26 +21,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/IndexController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#37#79#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="376" column="51" lean-forward="true" selection-start-line="376" selection-start-column="51" selection-end-line="376" selection-end-column="51" />
+            <state relative-caret-position="6256">
+              <caret line="376" column="51" selection-start-line="376" selection-start-column="51" selection-end-line="376" selection-end-column="51" />
               <folding>
                 <element signature="e#37#68#0#PHP" expanded="true" />
-                <element signature="e#6958#7626#0#PHP" />
-                <element signature="e#7702#8160#0#PHP" />
               </folding>
             </state>
           </provider>
@@ -50,12 +36,12 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/ProfilsController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/profils/index.volt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -64,15 +50,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/config/router.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/index.volt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#ul#1;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="510">
+              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -80,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/UserControlController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1292">
+            <state relative-caret-position="136">
               <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
@@ -90,10 +81,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/users/signUp.volt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#351#399#0#HTML" expanded="true" />
-              </folding>
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -102,10 +90,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/users/signIn.volt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -119,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/layouts/users.volt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -151,6 +136,7 @@
         <option value="$PROJECT_DIR$/app/controllers/UsersController.php" />
         <option value="$PROJECT_DIR$/app/controllers/ProfilsController.php" />
         <option value="$PROJECT_DIR$/app/views/profils/index.volt" />
+        <option value="$PROJECT_DIR$/app/config/router.php" />
       </list>
     </option>
   </component>
@@ -175,74 +161,19 @@
         <subPane>
           <expand>
             <path>
-              <item name="staff2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="staff2" type="462c0819:PsiDirectoryNode" />
+              <item name="staff3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="staff3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="staff2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="staff2" type="462c0819:PsiDirectoryNode" />
+              <item name="staff3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="staff3" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="staff2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="staff2" type="462c0819:PsiDirectoryNode" />
+              <item name="staff3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="staff3" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="staff2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="staff2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="forms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="staff2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="staff2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="staff2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="staff2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="staff2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="staff2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="staff2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="staff2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="staff2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="staff2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="staff2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="staff2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="profils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="staff2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="staff2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="staff2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -285,17 +216,18 @@
       <workItem from="1559538861080" duration="1159000" />
       <workItem from="1559543457489" duration="6989000" />
       <workItem from="1559551737783" duration="10069000" />
+      <workItem from="1559581661238" duration="333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19714000" />
+    <option name="totallyTimeSpent" value="20047000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2531983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -523,28 +455,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/index.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#1;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/UserControlController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1292">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="204">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#37#79#0#PHP" expanded="true" />
           </folding>
@@ -553,12 +467,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="376" column="51" lean-forward="true" selection-start-line="376" selection-start-column="51" selection-end-line="376" selection-end-column="51" />
+        <state relative-caret-position="6256">
+          <caret line="376" column="51" selection-start-line="376" selection-start-column="51" selection-end-line="376" selection-end-column="51" />
           <folding>
             <element signature="e#37#68#0#PHP" expanded="true" />
-            <element signature="e#6958#7626#0#PHP" />
-            <element signature="e#7702#8160#0#PHP" />
           </folding>
         </state>
       </provider>
@@ -566,27 +478,35 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/ProfilsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/index.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/UserControlController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/signUp.volt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#351#399#0#HTML" expanded="true" />
-          </folding>
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/signIn.volt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -596,7 +516,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/layouts/users.volt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -604,6 +524,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
         </state>
       </provider>
     </entry>
