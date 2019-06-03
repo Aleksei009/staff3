@@ -4,7 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/app/views/users/signIn.volt" description="&#10;" line="15" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a38dde2-569f-4ed9-bd52-7ff7de6fc21c" name="Default Changelist" comment="" />
+    <list default="true" id="3a38dde2-569f-4ed9-bd52-7ff7de6fc21c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ProfilsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ProfilsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profils/index.volt" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/profils/index.volt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +45,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="310" lean-forward="true" selection-start-line="310" selection-end-line="310" />
+            <state relative-caret-position="340">
+              <caret line="376" column="51" lean-forward="true" selection-start-line="376" selection-start-column="51" selection-end-line="376" selection-end-column="51" />
               <folding>
                 <element signature="e#37#68#0#PHP" expanded="true" />
+                <element signature="e#6958#7626#0#PHP" />
+                <element signature="e#7702#8160#0#PHP" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/ProfilsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/profils/index.volt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -95,28 +121,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/users.volt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/index.volt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/signIn.volt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -130,6 +134,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -139,8 +146,6 @@
         <option value="$PROJECT_DIR$/app/views/layouts/main-public.volt" />
         <option value="$PROJECT_DIR$/app/models/Times.php" />
         <option value="$PROJECT_DIR$/app/controllers/ProfilController.php" />
-        <option value="$PROJECT_DIR$/app/controllers/ProfilsController.php" />
-        <option value="$PROJECT_DIR$/app/views/profils/index.volt" />
         <option value="$PROJECT_DIR$/app/views/index/signIn.volt" />
         <option value="$PROJECT_DIR$/app/views/index/index.volt" />
         <option value="$PROJECT_DIR$/app/services/UserService.php" />
@@ -152,6 +157,8 @@
         <option value="$PROJECT_DIR$/app/models/Users.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/index.volt" />
         <option value="$PROJECT_DIR$/app/controllers/UsersController.php" />
+        <option value="$PROJECT_DIR$/app/controllers/ProfilsController.php" />
+        <option value="$PROJECT_DIR$/app/views/profils/index.volt" />
       </list>
     </option>
   </component>
@@ -160,12 +167,13 @@
       <path value="$PROJECT_DIR$/../phalcon-devtools" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="703" />
     <option name="y" value="166" />
     <option name="width" value="1009" />
     <option name="height" value="760" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -231,6 +239,13 @@
               <item name="staff2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="profils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="staff2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="staff2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -245,6 +260,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../phalcon-devtools" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -276,15 +292,15 @@
       <workItem from="1559538375448" duration="260000" />
       <workItem from="1559538861080" duration="1159000" />
       <workItem from="1559543457489" duration="6989000" />
-      <workItem from="1559551737783" duration="7141000" />
+      <workItem from="1559551737783" duration="9779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16786000" />
+    <option name="totallyTimeSpent" value="19424000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2531983" />
@@ -407,13 +423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/profils/index.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/main-private-user.volt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -424,13 +433,6 @@
           <folding>
             <element signature="e#31#54#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ProfilsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -590,11 +592,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="310" lean-forward="true" selection-start-line="310" selection-end-line="310" />
+        <state relative-caret-position="340">
+          <caret line="376" column="51" lean-forward="true" selection-start-line="376" selection-start-column="51" selection-end-line="376" selection-end-column="51" />
           <folding>
             <element signature="e#37#68#0#PHP" expanded="true" />
+            <element signature="e#6958#7626#0#PHP" />
+            <element signature="e#7702#8160#0#PHP" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ProfilsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/profils/index.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,7 @@
 <?php
 
+namespace Staff\Controllers;
+
 class ProfilsController extends \Phalcon\Mvc\Controller
 {
 
@@ -10,12 +12,20 @@ class ProfilsController extends \Phalcon\Mvc\Controller
 
     public function indexAction()
     {
-        if ($this->session->has('user-name')) {
+
+        //$session = $this->session()->get('auth',['id']);
+      //  print_die($session);
+        $authUser = $this->session->get('auth');
+        $this->view->authUser = $authUser;
+       // print_die($authUser);
+
+
+      /*  if ($this->session->has('auth')) {
             // Retrieve its value
-            $name = $this->session->get('user-name');
+            $name = $this->session->get('auth');
 
             $this->view->user = $name;
-        }
+        }*/
     }
 
 }

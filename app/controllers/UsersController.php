@@ -300,37 +300,115 @@ class UsersController extends ControllerBase
     {
 
 
-        $data = $this->request->get();
-
+        //$data = $this->request->get();
        // $user = Users::query()->where('email = $data[email]')->execute();
-        if($data){
+        /*if($this->request()->isPost()){
+
+            $email    = $this->request->getPost('email');
+            $password = $this->request->getPost('password');
+
             $user = Users::find([
                 'email' =>  $data['email']
             ]);
 
+            $user = Users::findFirst(
+                [
+                    "(email = :email: OR username = :email:) AND password = :password: AND active = 'Y'",
+                    'bind' => [
+                        'email'    => $email,
+                        'password' => sha1($password),
+                    ]
+                ]
+            );
+
+
+
 
             print_die($user);
-        }
-
+        }*/
        // $user = Users::findFirst($data['email']);
 
 
-
-
-
         if ($this->request->isPost()) {
+            /*
+            $email    = $this->request->getPost('email');
+            $password = $this->request->getPost('password');
 
-            $data = $this->request->get();
+            $user = Users::findFirst(
+                [
+                    "email = :email: AND password = :password:",
+                    'bind' => [
+                        'email'    => $email,
+                        'password' => $password,
+                    ]
+                ]
+            );
 
-            $user = Users::findFirst($data['email']);
+            print_die($user);*/
+
+            $email    = $this->request->getPost('email');
+            $password = $this->request->getPost('password');
+
+            $user = Users::findFirstByEmail($email);
+
+          //  print_die($user->email);
+            if ($user) {
+                if ($this->security->checkHash($password, $user->password)) {
+                    // Пароль верный
+
+                    if($user->role == 'admin'){
+
+                        $this->session->set('auth',[
+                            'id'   => $user->id,
+                            'role' => $user->role,
+                            'name' => $user->name,
+                            'user' => $user->email
+                        ]);
+
+                        // $this->session->set('role','admin');
+                        $this->response->redirect('admin');
+                    }
+
+                    if($user->role == 'user'){
+
+                        $this->session->set('auth',[
+                            'id' => $user->id,
+                            'role' =>  $user->role,
+                            'name' =>  $user->name,
+                            'email' => $user->email
+                        ]);
+                        // $this->session->set('role', 'user');
+                        $this->response->redirect('profils');
+                    }
+
+                }
+            }
+
+            } else {
+                // Защита от атак по времени. Regardless of whether a user
+                // exists or not, the script will take roughly the same amount as
+                // it will always be computing a hash.
+
+                $this->security->hash(rand());
+                 return  $this->response->redirect('');
+            }
+
+
+
+            /* $data = $this->request->get();
+
+             $user = Users::findFirst($data['email']);
+             */
+
 
             //print_die($user);
 
-            if($user){
+           /* if($user){
 
-                if($user->role == 1){
+                if($user->role == 'admin'){
 
                     $this->session->set('auth',[
+                        'id'   => $user->id,
                         'role' => $user->role,
                         'name' => $user->name,
                         'user' => $user->email
@@ -340,9 +418,10 @@ class UsersController extends ControllerBase
                     $this->response->redirect('');
                 }
 
-                if($user->role == 0){
+                if($user->role == 'user'){
 
                     $this->session->set('auth',[
+                        'id' => $user->id,
                        'role' =>  $user->role,
                        'name' =>  $user->name,
                        'email' => $user->email
@@ -355,7 +434,7 @@ class UsersController extends ControllerBase
         }else{
 
           return  $this->response->redirect('');
-        }
+        }*/
 
       //  print_die($user);
 
